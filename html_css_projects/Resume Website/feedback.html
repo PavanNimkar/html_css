@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback</title>
+</head>
+<body>
+   <header>
+    <div>
+    <center><h1>FEEDBACK</h1></center>
+    <hr>
+    </div>
+   </header>
+   <main>
+    <!-- form start -->
+    <form action="/action.php">
+        <input type = "text" name = "name" placeholder="Full Name">
+        <br/>
+        <br/>
+        <input type = "password" name = "Password" placeholder="Password">
+        <br>
+        <br>
+        <input list = "Departments" name = "Departments" placeholder="Department">
+        <datalist id = "Departments">
+            <option value = "CSE">
+            <option value = "ENTC">
+            <option value = "EE">
+            <option value = "ME">
+        </datalist>
+        <br>
+        <br>
+        <input list = "Divisions" name = "Divisions" placeholder="Division">
+        <datalist id = "Divisions">
+            <option value = "A">
+            <option value = "B">
+            <option value = "C">
+        </datalist>
+        <br>
+        <br>
+        <input list = "Years" name = "Years" placeholder="Year">
+        <datalist id = "Years">
+            <option value = "FY">
+            <option value = "SY">
+            <option value = "TY">
+        </datalist>
+    <hr/>
+        <h3>How was my Resume?</h3>
+        <label>
+        <input type="radio" name = "radio_choice" value="Good" id="101">Good
+        <br>
+        </label>
+        <label>
+        <input type="radio" name = "radio_choice" value="Improvement" id="102">Need Improvement
+        <br/>
+        </lable>
+        <label>
+        <input type="radio" name = "radio_choice" value="Bad" id="103">Bad
+        <br/>
+        </label>
+        <label>
+        <input type="radio" name = "radio_choice" value="Worst" id="104">Worst
+        </label>
+    <hr/>
+        <h3>Which improvements neeeded?</h3>
+        <label>
+        <input type = "checkbox" name = "check_box_choice1" value = "Internships">Internships
+        <br/>
+        </label>
+        <label>
+        <input type = "checkbox" name = "check_box_choice2" value = "Skills">Skills
+        <br/>
+        </label>
+        <label>
+        <input type = "checkbox" name = "check_box_choice3" value = "Experiences">Work Experiences
+        <br/>
+        </label>
+        <label>
+        <input type = "checkbox" name = "check_box_choice4" value = "Languages">Languages
+        </label> 
+    <hr>
+        <h3>Any Other Suggestions?</h3>
+        <!-- suggestios box -->
+        <textarea type = "text" rows="10" cols = "100" name = "any other" placeholder="Any other suggestions">
+        </textarea>
+    <hr/>
+        <input type = "submit" name = "submit">
+    </form>
+   </main>
+   <footer>
+   </footer>
+</body>
+</html>

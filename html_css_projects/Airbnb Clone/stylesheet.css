@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.3), rgb(0,0,0,0.3)), url(images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline;
+    margin: 10px 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.register_btn {
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    padding : 8px 20px;
+}
+
+.container {
+    padding: 0 7%;
+}
+
+.header h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    padding-top: 22%;
+}
+
+#user-inputs {
+    background-color: #fff;
+    width: 70%;
+    border-radius: 50px;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+}
+
+#user-inputs form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#user-inputs form input {
+    display: block;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+#user-inputs form button {
+    background-color: #ff5361;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#user-inputs form button img {
+    width: 15px;
+    padding-top: 5px;
+}
+
+#location-input {
+    flex: 1;
+}
+
+#user-inputs label {
+    font-weight: 600;
+}
+
+/*----------------- Exclusives ------------------*/
+
+.sub-title {
+    margin: 50px 0px 20px;
+    font-size: 2.2vw;
+    color: #333;
+    font-weight: 500px;
+}
+
+.exclusives {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.exclusives div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.exclusives div {
+    position: relative;
+}
+
+.exclusives div span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+/* ----------------- Trending Places ---------------- */
+
+.trending-places {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.trending-places div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trending-places div h3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* ------------------- Call To Action -------------------- */
+
+.cta {
+    margin : 80px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(images/banner-2.png);
+    padding: 5%;
+    color: #fff;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cta h3 {
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+
+.cta p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* ---------------------- Travellers Stories ------------------- */
+
+.stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.stories div img {
+    width : 100%;
+    border-radius: 10px;
+}
+
+.stories div {
+    position: relative;
+    text-align: center;
+}
+
+.stories p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+}
+
+/* ----------------- Start Button ----------------- */
+
+.start-btn {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    background-color: #ff5361;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+/* ------------------- About Us Message -------------------- */
+
+.abt-msg {
+    text-align: center;
+    color: #333;
+    font-size: 17px;
+    margin: 50px 0;
+}
+
+#abt-us-parah {
+    padding: 15px;
+}
+
+/* --------------------Footer ------------------------------ */
+
+.footer {
+    margin: 50px 0 10px;
+    text-align: center;
+}
+
+.footer a {
+    margin: 10px;
+    color: #333;
+    font-size: 25px;
+}
+
+.footer hr {
+    width: 100%;
+}
+
+.footer p {
+    padding: 10px;
+}
+
+/* ------------------- for small Screen ------------------ */
